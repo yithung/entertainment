@@ -1,0 +1,161 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 3px solid #bbbbbb; 
+    border-radius: 5px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    font-family: 'Baloo 2', cursive;
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.button {
+    background: White;
+    padding: 5px;
+    font-size: 15px;
+    color: Black;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+    opacity: 0.9;
+    /*float: right;*/
+    /*margin-top: 100px;*/
+    /*margin-right: 45%;*/
+    /*margin-left: 45%*/
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    /*margin-bottom: 20px;*/
+}
+
+.button:hover{
+    opacity: 1
+}
+
+.back_btn{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border-radius: 4px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color:#454545;
+}
+
+.save_btn {
+    background: #48b578;
+    padding: 5px;
+    font-size: 15px;
+    color: White;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+    opacity: 0.9;
+    float: right;
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.save_btn:hover{
+    opacity: 1
+}
+
+.edit_btn {
+    font-family: 'Baloo 2', cursive;
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2ECC71;
+    color: white;
+    border-radius: 4px;
+    display: inline-block;
+    width: auto;
+    /*float:left;*/
+}
+
+.dlt_btn {
+    font-family: 'Baloo 2', cursive;
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 4px;
+    background: Tomato;
+    display: inline-block;
+    width: auto;
+    /*float: left;*/
+}
+
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.wrn {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #910f0f; 
+    background: #f26363; 
+    border: 1px solid #910f0f;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+@media screen and (max-width: 720px) {
+
+    form{
+        width: 80%;
+    }
+}
